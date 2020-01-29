@@ -3,5 +3,5 @@
 ## Usage
 
 ```
-got get -u {{ .ProjectPath }}
+go get -u {{ .ProjectPath }}
 ```
