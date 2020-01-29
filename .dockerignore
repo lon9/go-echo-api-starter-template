@@ -1,0 +1,5 @@
+.gitignore
+config/environments
+fixtures
+go-echo-api-starter
+database/db
