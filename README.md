@@ -1,1 +1,7 @@
-# go-echo-api-starter
+# {{ .ProjectName }}
+
+## Usage
+
+```
+got get -u {{ .ProjectPath }}
+```
