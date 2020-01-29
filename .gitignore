@@ -19,6 +19,6 @@
 go-echo-api-starter
 {{ .ProjectName }}
 *.db
-config/environments
+config/environments/*
 !config/environments/development.yml
 !config/environments/test.yml
