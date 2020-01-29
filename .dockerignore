@@ -1,5 +1,6 @@
 .gitignore
 config/environments
 fixtures
+{{ .ProjectName }}
 go-echo-api-starter
 database/db

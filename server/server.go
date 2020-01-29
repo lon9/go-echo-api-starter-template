@@ -1,6 +1,6 @@
 package server
 
-import "github.com/lon9/go-echo-api-starter/config"
+import "{{ .ProjectPath }}/config"
 
 // Init initialize server
 func Init() error {

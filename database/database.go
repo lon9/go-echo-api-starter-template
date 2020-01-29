@@ -2,7 +2,7 @@ package database
 
 import (
 	"github.com/jinzhu/gorm"
-	"github.com/lon9/go-echo-api-starter/config"
+	"{{ .ProjectPath }}/config"
 )
 
 var d *gorm.DB

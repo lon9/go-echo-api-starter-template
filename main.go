@@ -6,9 +6,9 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	"github.com/lon9/go-echo-api-starter/config"
-	"github.com/lon9/go-echo-api-starter/database"
-	"github.com/lon9/go-echo-api-starter/server"
+	"{{ .ProjectPath }}/config"
+	"{{ .ProjectPath }}/database"
+	"{{ .ProjectPath }}/server"
 )
 
 func main() {

@@ -5,8 +5,8 @@ import (
 
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-	"github.com/lon9/go-echo-api-starter/config"
-	"github.com/lon9/go-echo-api-starter/controllers"
+	"{{ .ProjectPath }}/config"
+	"{{ .ProjectPath }}/controllers"
 )
 
 // NewRouter is constructor for router
