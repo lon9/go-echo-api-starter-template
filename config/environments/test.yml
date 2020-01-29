@@ -1,7 +1,7 @@
 environment: "test"
 db:
     provider: "sqlite3"
-    url: "database/test.db"
+    url: "database/db/test.db"
 server:
     version: "v1"
     port: "3001"
