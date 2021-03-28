@@ -18,7 +18,6 @@ func main() {
 
 	config.Init(*env)
 	database.Init(false)
-	defer database.Close()
 	if err := server.Init(); err != nil {
 		panic(err)
 	}
